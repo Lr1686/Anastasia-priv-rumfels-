@@ -19,7 +19,7 @@ client = genai.Client(api_key="TA_CLE")  # ou via variable d'environnement
     retry_error_callback=lambda retry_state: print(f"Échec après {retry_state.attempt_number} tentatives")
 )
 async def connect_live():
-    session = await client.live.connect(model="gemini-3.1-flash-live-preview")
+    session = await client.live.connect(model="gemini-10-flash-live-preview")
     # ... ton code de streaming audio ici
     return session
 
