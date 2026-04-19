@@ -1,0 +1,36 @@
+# Fichiers fantômes et encodages systèmes
+.DS_Store
+.CFUserTextEncoding
+.bash_history
+.bash_profile*
+.bash_sessions/
+.python_history
+.ssh/
+.conda/
+.cache/
+0
+9
+1026
+1027
+@
+E
+WJR
+Y
+b
+bv
+flash_attn_varlen_func
+ghj-phimBH^ppp$
+io
+n$
+op$
+p
+pp
+q
+sza
+v
+*[\300-\377]*
+
+# Dossiers de travail lourds
+miniconda/
+stable-diffusion-webui/
+iCloud*
